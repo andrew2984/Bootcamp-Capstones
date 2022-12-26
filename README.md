@@ -14,7 +14,7 @@ This is an extension of the previous capstone project where I was required to im
 Aspects of OOP is showcased in this inventory management program as I instantiated new show objects based on a text file containing information. Additional features such as adding, searching, restocking shoes were part of the criteria.
 
 ## Capstone 5
-The final capstone project utilised SQLite to create a relational database with basic features.
+The final capstone project utilised SQLite to create a relational database in the form of a bookstore with traditional features.
 
 Beyond these major bootcamp projects, I want to highlight a few other minor projects that showcases my understanding.
 
