@@ -16,6 +16,7 @@ Aspects of OOP is showcased in this inventory management program as I instantiat
 ## Capstone 5
 The final capstone project utilised SQLite to create a relational database in the form of a bookstore with traditional features.
 
+# Others
 Beyond these major bootcamp projects, I want to highlight a few other minor projects that showcases my understanding.
 
 ## minesweeper
