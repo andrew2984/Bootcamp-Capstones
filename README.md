@@ -22,4 +22,4 @@ Beyond these major bootcamp projects, I want to highlight a few other minor proj
 I was very happy with how this turned out and, instead of sticking to a template grid, I allowed the user to create their own minesweeper base despite it not being a part of the criteria.
 
 ## watch_next
-Here, I was tasked with using SpaCy, a library for natural language processing, to recommend a movie from a list based on model synopsis.
+Here, I was tasked with using SpaCy, a library for natural language processing, to recommend a movie from a list based on a model synopsis.
