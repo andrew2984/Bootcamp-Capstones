@@ -1,25 +1,25 @@
 import sqlite3
 
 def add_book():
-        # checks if id is already taken
-        while True:
-            try:
-                new_id = int(input("Enter id"))
-                if new_id in get_id_list():
-                    print("This id is already taken")
-                else:
-                    break
-            except ValueError:
-                print("Please enter a number")
+    # checks if id is already taken
+    while True:
+        try:
+            new_id = int(input("Enter id"))
+            if new_id in get_id_list():
+                print("This id is already taken")
+            else:
+                break
+        except ValueError:
+            print("Please enter a number")
 
-        # user enters data and data is inserted
-        new_title = input("Enter the title")
-        new_author = input("Enter the author")
-        new_qty = int(input("Enter how many we have in stock"))
-        # makes list and inserts into table
-        new_book_data = [new_id, new_title, new_author, new_qty]
-        cursor.execute('''
-            INSERT INTO bookstore(id, Title, Author, Qty) VALUES(?,?,?,?)''', new_book_data)
+    # user enters data and data is inserted
+    new_title = input("Enter the title")
+    new_author = input("Enter the author")
+    new_qty = int(input("Enter how many we have in stock"))
+    # makes list and inserts into table
+    new_book_data = [new_id, new_title, new_author, new_qty]
+    cursor.execute('''
+        INSERT INTO bookstore(id, Title, Author, Qty) VALUES(?,?,?,?)''', new_book_data)
 
 
 def update_info():
