@@ -1,5 +1,5 @@
 # Bootcamp-Capstones
-Major bootcamp projects showing my progress
+Major bootcamp projects showing my progress. 
 
 ## finance_calculators
 This was the first project I was tasked with creating which aimed to test my understanding of control structures and mathematical operations. It required me to calculate the returns on investments or bonds based on user input.
@@ -11,7 +11,7 @@ Next, I was tasked with creating a task manager that would read and write from a
 This is an extension of the previous capstone project where I was required to implement edge-cases and sub-menus to edit tasks in the text file as well as create a new menu option that displays task statistics.
 
 ## inventory
-Aspects of OOP is showcased in this inventory management program as I instantiated new show objects based on a text file containing information. Additional features such as adding, searching, restocking shoes were part of the criteria.
+Aspects of OOP is showcased in this inventory management program as I instantiated new shoe objects based on a text file containing information. Additional features such as adding, searching, restocking shoes were part of the criteria.
 
 ## Capstone 5
 The final capstone project utilised SQLite to create a relational database in the form of a bookstore with traditional features.
